@@ -1,9 +1,9 @@
 # TRACE, DEBUG, INFO, WARN, ERROR, FATAL, 'OFF' (quote OFF so it is interpreted as a String and not a boolean)
 logging:
   level:
-    root: INFO 
+    root: FATAL 
     io:
-      pivotal: INFO
+      pivotal: DEBUG
 #    com:
 #      netflix: ERROR
 #        eureka: DEBUG #'OFF'
